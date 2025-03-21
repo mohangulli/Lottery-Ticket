@@ -1,14 +1,15 @@
 import "./App.css";
-import TodoList from "./TodoList";
-import Form from "./Form"
+
+import Lottery from "./Lottery";
 function App() {
   
 
   return(<>
   
 
-<TodoList/>
- 
+  <Lottery  n={3} winningSum={16} />
+
+
 </>
      );
 }
